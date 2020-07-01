@@ -6,10 +6,11 @@ agent:
     os_image: ubuntu1804
     
 execution_time_limit:
-  minutes: 110
+  minutes: 170
 
 blocks:
   - name: 'Block #1'
+    parallelism: 4
     task:
       jobs:
         - name: 'Job #1'
